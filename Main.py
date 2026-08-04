@@ -34,6 +34,26 @@ print(f"Sua distancia ao trabalho é de {distancia}km.")
 
 # Um Boolean é V ou F, verdadeiro ou falço, "True" or "False" - Primeira letra em Maiúsculo sempre.
 #                   Se usa mais internamente, com If e Else, não ficam "expostos"
-e_aluno = True
+e_aluno = False
+para_venda = True
+esta_online = True
 
-print(f"Você é um aluno?: {e_aluno}") # Apenas demonstrativo Boolean.
+# print(f"Vocé é um aluno? {e_aluno}")
+# Resposta: True
+# ~~ esse foi um exemplo demonstrativo do Boolean.
+
+# Exemplo usual de boolean com If e Else.
+#if e_aluno:
+#   print("Você é um aluno!")
+#else:
+#   print("Você NÃO é um aluno!")
+# ~~
+if para_venda:
+    print("O item esta a venda")
+else:
+    print("O item NÃO esta a venda")
+
+if esta_online:
+    print("Você esta online")
+else:
+    print("Você NÃO esta online")
