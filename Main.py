@@ -34,7 +34,7 @@ print(f"Sua distancia ao trabalho é de {distancia}km.")
 
 # Um Boolean é V ou F, verdadeiro ou falço, "True" or "False" - Primeira letra em Maiúsculo sempre.
 #                   Se usa mais internamente, com If e Else, não ficam "expostos"
-e_aluno = False
+# e_aluno = False
 para_venda = True
 esta_online = True
 
@@ -54,6 +54,28 @@ else:
     print("O item NÃO esta a venda")
 
 if esta_online:
-    print("Você esta online")
+    print("Você esta Online")
 else:
-    print("Você NÃO esta online")
+    print("Você esta Offline")
+
+# Typecasting = O processo de converter um valor de dado para outro tipo de dado.
+##              string, inteiro, floa e boolean)
+## existem 2 tipos de maneira de fazer isso, a Explicita e a Implicitamente.
+
+# Exemplo Typecasting Explícito:
+
+nome = "Quaresma"
+idade = 22
+altura = 1.83
+estudante = True
+
+ty1 = type(nome)
+ty2 = type(idade)
+ty3 = type(altura)
+ty4 = type(estudante)
+
+print(f"O Typecasting da variável 1 é: {ty1}")
+print(f"O Typecasting da variável 2 é: {ty2}")
+print(f"O Typecasting da variável 3 é: {ty3}")
+print(f"O Typecasting da variável 4 é: {ty4}")
+
