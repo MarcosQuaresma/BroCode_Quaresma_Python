@@ -13,6 +13,8 @@ idade = int(input("Digite sua idade: "))
 # Maas se da pra fazer em uma linha só de cídigo, iremos fazer lá em cima.
 idadesoma = idade + 1
 
-print(f"Olá {nome}!")
+print (f"Olá {nome}!")
 print (f"Sua idade é de {idade} anos!")
 print (f"Sua idade + 12 meses de diferença é de {idadesoma} anos!")
+
+# com base no que foi passado, seguiremos pra o exercício executado no arquivo: exercicio_Mad_Libs.py
