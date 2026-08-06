@@ -1,4 +1,4 @@
-# Talvez 30° programa em Python, justificativa pra aprendizagem... hahaha.
+# Justificativa pra aprendizagem.
 print ("I like Sushi!")
 print ("Sushi só é bom cru!")
 
@@ -62,20 +62,41 @@ else:
 ##              string, inteiro, floa e boolean)
 ## existem 2 tipos de maneira de fazer isso, a Explicita e a Implicitamente.
 
-# Exemplo Typecasting Explícito:
+# Exemplo de Identificação:
 
 nome = "Quaresma"
 idade = 22
-altura = 1.83
+media = 1.83
 estudante = True
 
 ty1 = type(nome)
 ty2 = type(idade)
-ty3 = type(altura)
+ty3 = type(media)
 ty4 = type(estudante)
 
-print(f"O Typecasting da variável 1 é: {ty1}")
-print(f"O Typecasting da variável 2 é: {ty2}")
-print(f"O Typecasting da variável 3 é: {ty3}")
-print(f"O Typecasting da variável 4 é: {ty4}")
+print(f"A Identificação da variável 1 é: {ty1}")
+print(f"A Identificação da variável 2 é: {ty2}")
+print(f"A Identificação da variável 3 é: {ty3}")
+print(f"A Identificação da variável 4 é: {ty4}")
 
+# Exemplo Conversão Explícita:
+
+idade = float(idade)
+altura = int(media)
+estudante = str(estudante)
+idade = bool(idade)
+
+print (f"Em float a idade fica: {idade}")
+print (f"Em inteiro a média é: {altura}")
+print (f"Em String a arfirmativa para estudante é: {estudante}")
+print (f"Em boolean a idade é: {idade}")
+# Observação: Em Boolean sempre irá aparecer "True" quando o valor for diferente de 0, e "False" quando for igual a 0
+
+# Exemplo de conversão Implícito:
+x = 2
+y = 2.0
+
+x = x / y # originalmente o "x" era um inteiro(int) mas, com algumas operações matemáticas, elas convertem
+# automaticamente, nesse casa foi para Float.
+
+print(x)
