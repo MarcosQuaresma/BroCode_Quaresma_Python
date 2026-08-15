@@ -1,7 +1,7 @@
 # Métodos úteis para strings
 
 # nome = input("Digite seu nome completo: ")
-telefone = input("Digite seu telefone: ")
+# telefone = input("Digite seu telefone: ")
 
 # resultado = len(nome) # ele retorna um inteiro(int) com a quantidade
                         # de caracteres tem ums "srt" com espaços e tudo.
@@ -19,5 +19,11 @@ telefone = input("Digite seu telefone: ")
                              # caso tenha um " " vazio ou algo que não seja somente
                              # "srt" ele devolve False
 # resultado = telefone.count("-") # ele conta quantos caracteres existe na srt
+# resultado = telefone.replace("-", " ") # ele troca um caractere "x" por um caractere "y".
 
-print(resultado)
+## LISTA COMPLETA DE TODOS OS METODOS BASTA INVOCAR:
+##                         print(help(str))
+
+print(help(str))
+
+# print(resultado)
