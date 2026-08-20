@@ -4,6 +4,9 @@ capital_inicial = 0
 juros = 0
 tempo = 0
 
+# Fiz um exercício parecido com esse, ultilizando os mesmos métodos de While, if, elif e else, mas não ultilizei o
+# brake no while pq tinha as condições "x<=b e etc..." e a ultilização do "or" e "and"
+
 while capital_inicial <= 0:
     capital_inicial = float(input("Digite seu capital inicial: "))
     if capital_inicial <= 0:
