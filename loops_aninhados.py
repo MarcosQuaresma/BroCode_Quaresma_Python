@@ -15,7 +15,7 @@
 #       print("faça alguma coisa")
 # --------------------------------------
 # for x in range(3):
-#   while y 0:
+#   while y > 0:
 #       print("faça alguma coisa")
 
 # for x in range(1, 10):
@@ -25,6 +25,6 @@
 # Se eu qusier repetir esse loop n(x) vezes, basta por em outro loop (aninhando-o):
 
 for x in range(3):
-    for y in range(1, 10): # garanta que o contador do loop INTERNO seja diferente do loop EXTERNO. x & y
-        print(y, end=" ")
+    for y in range(10): # garanta que o contador do loop INTERNO seja diferente do loop EXTERNO. x & y
+        print(y, end="|")
     print(" : ") # a cada rodada do 'range(x)' ele imprimira uma sequnecia do 'print(x)'
